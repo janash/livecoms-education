@@ -1,4 +1,4 @@
-# Best Practices for Doing Something Very Important
+# Learning Communities and Resources in the Computational Molecular Sciences
 
 (Edit the title above to describe your article/repository.)
 Here you can put a brief explanation of what the focus is in this document.
