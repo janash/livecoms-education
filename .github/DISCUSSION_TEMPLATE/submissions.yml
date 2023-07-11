@@ -16,18 +16,21 @@ body:
   - type: checkboxes
     attributes:
       label: The educational resource is a community effort. It represents an organization or collection of individuals, rather than resources developed by one individual.
+      options:
         - label: "yes"
         - label: "no"
 
   - type: checkboxes
     attributes:
       label: Educational resources produced explain concepts beyond use of specific software. 
+      options:
         - label: "yes"
         - label: "no"
 
   - type: checkboxes
     attributes:
       label: Educational resources produced have open licenses.
+      options:
         - label: "yes"
         - label: "no"
 
@@ -40,6 +43,7 @@ body:
   - type: checkboxes
     attributes:
       label: Accessibility - all softwares/tools that are being used in learning activties are open-source or free for academic use.
+      options:
         - label: "yes"
         - label: "no"
         - label: N/A
@@ -47,6 +51,7 @@ body:
   - type: checkboxes
     attributes:
       label: Accessibility - most trainees have easy access or can gain access to the computational tools being taught.
+      options:
         - label: "yes"
         - label: "no"
         - label: N/A
