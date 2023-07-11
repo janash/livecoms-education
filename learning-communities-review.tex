@@ -100,8 +100,7 @@ Additionally, for well-formatted manuscripts, we recommend that you let LaTeX ha
 
 \section{Review organization}
 
-In general the organization of your review is up to you.
-LiveCoMS reviews are similar to traditional reviews except that they are updatable.
+This Perpetual Review presents educational communities and resources in the computational molecular sciences.
 
 \subsection{Perpetual review}
 
@@ -113,24 +112,26 @@ Tutorials should endeavor to cover the specific task at hand, and also highlight
 The scope of the tutorial, as well as the expected proficiencies / outcomes for researchers who complete the tutorial, should be clearly defined.
 This will often happen in a specific section or subsection in the article itself.
 
-\section{Prerequisites}
+\section{Criteria for Inclusion}
 
 %In keeping with other types of articles at LiveCoMS, it may be useful (at your discretion) to note any prerequisites your article assumes and who it is targeted at.
 
 This article is aimed at improving the centralization of resources for computational molecular sciences. It is designed for both students and educators, and has a particular focus on resources that create learning communities. 
 
-Here, we present the minimum eligibility criteria for educational communities and organizations that offer resources and learning opportunities on computational molecular science:
+In order to decide what education resources and communities are in the article, we, the article maintainers created a set of minimum eligibility criteria for inclusion.
+We based these criteria on openness, accessibility, and the existence of community around the learning resources. There are four main items in the minimum eligibility criteria. These are:
 \begin{itemize}
-\item The community should be a part of an academic organization or multiple academic institutions;
-\item The community should provide resources explaining concepts beyond the software/tools used for calculations;
+\item The learning resources should be developed by multiple people or a community of people, rather than representing the efforts of a single individual.
+\item The community should affiliated with an academic organization or multiple academic institutions. This essentially means that commercial learning resources are not represented in this review.
+\item The community should provide resources explaining concepts beyond the software/tools used for calculations.
 \item The community should use open licenses for educational resources (e.g. CC-BY). 
 \end{itemize}
 
 Considering the implicit diversity of educational communities we expect that one size does not fit all, but all educational communities and organizations listed here satisfy at least one criterion in each of the following four domains: accessibility, activity, growth and pedagogy. %Should we include the link to public survey here, for people to self-determine if they count? I have added it below -A
 
-To self-determine if you fulfill the criteria, we have provided a public survey here:
+%To self-determine if you fulfill the criteria, we have provided a public survey here: %% this will be in the pull request template, we won't keep this form live.
 
-\url{https://molssi.typeform.com/to/vSSii68D?typeform-source=t.co}
+%\url{https://molssi.typeform.com/to/vSSii68D?typeform-source=t.co}
 
 \subsection{Accessibility}
 The community should provide accessible resources and a responsive attitude towards trainees with diverse needs. At the bare minimum, this means that all softwares/tools that are being used in learning activities are open-source or free for academic use and/or most trainees have easy access to the computational tools that are being taught. 
@@ -141,19 +142,17 @@ The community must be capable of growing and being sustainable. This can be in t
 \subsection{Pedagogy}
 The community should pay attention to the teaching style used in their resources. The resources should include clearly-defined learning objectives and/or offer support for learners past specific learning activities. The support could be via a mailing list, online forum or an issue tracker.
 \subsection{Updates}
-As this is a Perpetual Review, the contents will be updated annually with new or updated contributions. To be included in the article in the future, or to update your contribution, please use the following Github pull request template:
+As this is a Perpetual Review, the contents will be updated annually with new or updated contributions. To be included in the article in the future, or to update your contribution, please open a Pull Request on this repository. The Pull Request will contain a template with this criteria that you can fill out. 
 
-%Add the link to the Github template here!
-
-A review author will contact you to handle your contribution given that you fulfill the above requirements for a learning community. 
+A review author will review your Pull Request and guide you through a contribution given that you fulfill the above requirements for a learning community. 
 
 \section{Education Communities}
 
-The education communities fall into three broad categories:
+We have divided the educational communities and resources into three broad categories based on the type of community an resources available:
 \begin{itemize}
-    \item Curriculum Development and Faculty Communities
-    \item Tutorials, Schools, and Online Resources
-    \item Research Centers and Institutes
+    \item \textbf{Curriculum Development and Faculty Communities} - These represent communities of educators and often develop and offer curricula for university-level courses.
+    \item \textbf{Tutorials, Schools, and Online Resources} - These are workshops, tutorials, or schools that are usually targeted at computational molecular sciences researchers. 
+    \item \textbf{Research Centers and Institutes}
 \end{itemize}
 
 \subsection{Curriculum Development and Faculty Communities}
@@ -170,7 +169,7 @@ The education communities fall into three broad categories:
 \subsubsection{Partnership for Integration of Computation into Undergraduate Physics (PICUP)}
 \input{community_descriptions/faculty_curriculum/picup}
 
-\subsubsection{Process-Oriented Guided Learning Inquiry for the Physial Chemistry Laboratory (POGIL-PCL)}
+\subsubsection{Process-Oriented Guided Learning Inquiry for the Physical Chemistry Laboratory (POGIL-PCL)}
 \input{community_descriptions/faculty_curriculum/pogil-pcl}
 
 \subsubsection{Psi4Education}
@@ -180,131 +179,43 @@ The education communities fall into three broad categories:
 
 \subsubsection{The eChem Project}
 
-\textbf{Contributed by Patrick Norman}
-
-The \href{https://doi.org/10.30746/978-91-988114-0-7}{eChem project} offers a platform for interactive studies in computational chemistry based on Jupyter notebooks and the use of modern Python-driven electronic structure softwares such as VeloxChem  and Gator.  
-The notebooks are compiled into a Jupyter Book that targets a wide audience ranging from undergraduate students to experienced researchers.
-The central educational idea of eChem is to leverage the Python-layer exposure of data structures in VeloxChem and other software modules to enable the study of quantum chemistry in a similar manner that NumPy (or Matlab) can be used in studies of linear algebra. Presentations of theory and equations are intertwined with notebook cells showing the form these equations take in Python code implementations and fundamental concepts such as two-particle densities and electron correlation can be made visual with use of Matplotlib illustrations. 
-
-While the eChem book is well suited for self-directed learning, the material can also be used to put together workshops led by experienced instructors or as components in standard courses in the chemistry curriculum.  Students are recommended to use conda to install the software on their own laptops running Windows, MacOS, or Linux. 
-The eChem book is published under the Creative Commons Attribution-ShareAlike license with the source code available on GitHub.  Community contributions to the project are welcome both as comments and corrections as well as new book sections. The former category is handled through GitHub whereas the latter is initiated by e-mail correspondence to one of the authors.
+\input{community_descriptions/schools_and_online_resources/echem}
 
 \subsubsection{Helsinki Winter School in Theoretical Chemistry}
 
-\textbf{Contributed by Susi Lehtola}
-
-The \href{http://www.chem.helsinki.fi/ws.html}{Helsinki Winter School in
-Theoretical Chemistry} has been organized annually
-since 1985 at the \href{http://www.chem.helsinki.fi/}{Department of Chemistry}
-of the \href{www.helsinki.fi/}{University of Helsinki}, Finland, with the
-exception of 2020 and 2021 due to the coronavirus pandemic. The theme of the
-Winter School changes from year to year, in order to cover various fields of
-theoretical chemistry as well as possible. For example, the last four schools
-covered quantum computers for chemistry (2022), inorganic chemistry (2019),
-machine learning in theoretical chemistry (2018), and current trends in
-electronic structure methods (2017). The school aims to invite the leading 
-experts in the field, guaranteeing lectures of high scientific quality. The
-lecture materials are typically only made available to the workshop attendees,
-so that lecturers feel more free to present unpublished results.
-
-The winter school is typically organized in late October to early December as a
-four-day event, and usually has around 80 participants, around half of whom come
-from abroad. The school is targeted for PhD students and young researchers, but
-they usually also include a few more established researchers and professors; the
-presence of the more senior personnel often leads to lively scientific
-discussions during the lectures. Participation in the winter school is free;
-however, attendees need to pay their own travel and accomodation. The school
-also features a poster session, which welcomes posters representing any area of
-theoretical chemistry.
+\input{community_descriptions/schools_and_online_resources/helsinki_winter_school}
 
 \subsubsection{Making it Rain}
 
-\textbf{Contributed by Pablo Arantes}
-
-Molecular dynamics (MD) simulations are widely used for describing biomolecular motion, employing a classic physics approximation to depict atomic trajectories \cite{Liu2017,Hollingsworth2018}. However, due to their high computational demands, there is an increasing effort to enable large-scale runs of MD simulations \cite{Hollingsworth2018}. Cloud computing has emerged as a potential solution due to its scalability, reliability, and cost-effectiveness \cite{Ebejer2013}. Nevertheless, utilizing cloud computing for MD simulations requires technical expertise and the ability to perform tedious tasks, such as configuring remote nodes and installing software. To address this challenge, we developed a user-friendly front-end for running MD simulations \cite{Arantes2021} using the OpenMM toolkit \cite{Eastman2017} on the Google Colab framework \cite{colab,Bisong2019} (\url{https://pablo-arantes.github.io/making-it-rain/}). Our approach involves shareable, ready-to-use, and customizable Jupyter notebooks that guide the end-user through the process of running their calculations on the Google Colab platform. This approach makes it more accessible for low-income research groups to perform MD simulations at the microsecond timescale, and also facilitates teaching and learning of molecular simulations. These protocols can be customized for specific use cases, providing students with a hands-on approach to learning MD simulations.
-
-We believe that our work has a significant impact in the scientific community by enabling more researchers to conduct MD simulations without the high cost of traditional computing resources. This approach is also valuable for educators who wish to provide students with a hands-on experience in MD simulations. In summary, our approach offers an affordable and accessible solution for performing MD simulations using cloud computing resources. We hope that this strategy will empower researchers and educators alike, ultimately leading to new insights and discoveries in the field of biomolecular dynamics.
-
-All notebooks presented here are freely and publicly available at  \url{https://pablo-arantes.github.io/making-it-rain/}.
+\input{community_descriptions/schools_and_online_resources/making_it_rain}
 
 \subsubsection{PLUMED}
 
-\textbf{Contributed by }
-
-The PLUMED consortium\cite{plumed2019promoting} is a community born around the PLUMED open source software (\href{https://www.plumed.org}{www.plumed.org})\cite{tribello2014plumed}, a library to perform enhanced sampling and free energy calculations, and to analyze the data produced by molecular dynamics (MD) simulations. PLUMED works together with several molecular simulation packages, including but not limited to GROMACS, NAMD, OpenMM, Amber, CP2K, and Quantum ESPRESSO. The PLUMED consortium  is an open community that includes current and past PLUMED developers, contributors, and all those researchers whose work builds in part on PLUMED and at the same time drives the development and dissemination of the software. The mission of the consortium is to transform the way researchers communicate the protocols that are used in their MD simulations, in order to maximize the impact of new research and promote the highest possible standards of scientific reproducibility. 
-
-To achieve these goals, the PLUMED consortium coordinates two main initiatives. The first one is a public repository named PLUMED-NEST (\href{https://www.plumed-nest.org}{www.plumed-nest.org}) where contributors can share examples (including input and data files) to promote reproducibility and transparency in computational molecular science. The second initiative is a series of tutorials, called PLUMED Masterclasses, that teach molecular simulation techniques ranging from basic algorithms to advanced enhanced sampling methods. Recordings of lectures about these techniques can be found on the Youtube channel @plumedorg1402, and all the teaching material, including exercises, solutions, and slides, are available at www.plumed.org/masterclass. Further training and interactions between members of the PLUMED community revolve around the PLUMED forum (plumed-users@googlegroups.com) and the periodic, in-person schools and user meetings, which give the opportunity to new and experienced users to meet and discuss specific use cases.
+\input{community_descriptions/schools_and_online_resources/plumed}
 
 \subsubsection{TeachOpenCADD}
-\textbf{Contributed by Dominique Sydow and Andrea Volkamer}
 
-TeachOpenCADD is a free online platform launched in 2019 that presents common topics from computer-aided drug design (CADD) and how to solve them programmatically in Python with open-source data and packages \cite{TeachOpenCADD2019, TeachOpenCADD2022, TeachOpenCADDKinaseEdition}. The current lessons range from cheminformatics over structural bioinformatics to molecular modeling. The material also exemplifies how to query domain-relevant databases such as ChEMBL \cite{Mendez_2018_ChEMBL}, PubChem \cite{Kim_2021_PubChem}, and the PDB \cite{Burley_2020_PDB}. 
-Each lesson is presented in the form of an interactive Jupyter notebook \cite{Kluyver_2016_Jupyter}, which combines detailed theoretical background and executable code with a discussion and a quiz. The material is suitable for students and teachers from different disciplines and programming levels ranging from beginners to advanced users. It can be applied to self-study and classroom teaching but also serves as a basis for debarking on research questions \cite{TeachOpenCADDTeaching}. 
-
-The TeachOpenCADD material is available in many forms: (i) The TeachOpenCADD website \cite{TOC_Website} allows for instant browsing of the full content in read-only mode. (ii) Users can execute and modify the material either online via the Binder \cite{binder} support or locally via the TeachOpenCADD conda package \cite{conda_forge_community_2015_4774216, conda_forge_toc} as described in detail in the TeachOpenCADD documentation \cite{TOC_Documentation}. (iii) If users are looking for a coding-free solution, the cheminformatics-focused topics are available as GUI-based KNIME workflows \cite{TeachOpenCADDKNIME2019}. The TeachOpenCADD platform is actively maintained and continuously extended with new content (e.g. the kinase edition in 2022 \cite{TeachOpenCADDKinaseEdition} and a deep learning edition under current development). It is open to contributions, bug reports, and questions from the community via its GitHub repository \cite{TOC_Website}.
-
-\subsubsection{Virtual Winter School on Computational Chemistry}
-
-\textbf{Contributed by Rebecca Ingle}
-
-The \href{https://winterschool.cc}{Virtual Winter School on Computational Chemistry} (VWSCC) is an online conference series and community. Founded in 2015, the core aim of VWSCC is to improve the accessibility of scientific research to the scientific community all over the world by removing many of the traditional barriers to conference attendance - geography, income, career stage and many others. As well as offering access to talks combining pedagogical content and cutting-edge research developments, the VWSCC has been creating and maintaining an archive of education resources and running hands-on workshops for a variety of quantum chemical codes.  Participation is free and includes an online poster session. In this paper\cite{ROOS2020112975}, we discuss the reach of the VWSCC, some of the resources we offer and how to get involved in the community, an evaluation of how to run successful and accessible online events, and a summary of some of the challenges of working within this format.
-
-
+\input{community_descriptions/schools_and_online_resources/teach_open_cadd}
 
 \subsection{Research Centers and Institutes}
 
 \subsubsection{Centre Européen de Calcul Atomique et Moléculaire (CECAM)}
 
-\textbf{Contributed by Andrea Cavalli, CECAM Director and Sara Bonella, CECAM Deputy Director}
-
-Created in 1969, the Centre Européen de Calcul Atomique et Moléculaire (CECAM) is the longest-standing international organization for fundamental and applied research in simulation and modeling. 
-Twenty-five member organizations fund it, and its activities are articulated in a network of 17 nodes in Europe and Israel. 
-A US-based node will join the network soon. 
-CECAM Headquarters is located at EPF-Lausanne. 
-Core activities at CECAM are i) scientific workshops and schools on algorithmic and software development and applications; ii) brainstorming and problem-solving events; iii) collaborative research projects for Europe and beyond; iv) the sponsorship of an international visitors’ program. 
-A growing portfolio of online and hybrid activities complements in-person events. 
-CECAM is also developing teaching material for computational sciences via the \href{https://www.osscar.org/}{Open Software Services for Classrooms and Research (OSSCAR) project} \cite{DU2023}. 
-The beta version of Lhumos, a web portal for training and research in computational sciences developed by CECAM in collaboration with the Swiss National Center for Competence and Research MARVEL and the EU-funded Center of Excellence for Computing applications MAX will be online in June 2023.
- 
-CECAM brings together researchers and students at different stages of their careers, acting as an incubator for exciting science and learning via lively discussion in an informal and productive environment. 
-Each year, about 3000 colleagues participate in our activities. 
-Explore our website, \href{https://www.cecam.org/}{www.cecam.org}, to discover CECAM’s program and join our mailing lists if you want to keep up with CECAM’s activities. 
-Input and new ideas are always welcome. 
-Interested scientists, including early career researchers, are welcome to submit proposals for our yearly call for events and contact director@cecam.org to explore collaborations. 
-The next call for proposals will be out at the end of April 2023.
-
+\input{community_descriptions/research_institutes/cecam}
 
 \subsubsection{The Institute of Computational Molecular Science Education}
-
-\textbf{Contributed by Neeraj Rai}
-
-The Institute of Computational Molecular Science Education (i-CoMSE, \href{www.i-comse.org}{www.i-comse.org}) was established with funding from an NSF Cybertraining grant, and focuses on serving the needs of the community engaged in fundamental research in computational molecular science and engineering (CMSE) by (a) providing an ecosystem for nurturing and training the next generation of computational molecular scientists and engineers, (b) increasing availability and accessibility of well-curated education material and content, (c) serving as a node for engagement with the relevant stakeholders and promoting fundamental research in CMSE, and (d) broadening participation through recruitment and training of underrepresented groups in CMSE at institutions with low cyberinfrastructure (CI) penetration. 
-The institute provides training and educational modules for guided training in advanced computational tools and bolsters the fundamental understanding of the underlying theoretical concepts. Specifically, we offer (1) summer/winter schools for hands-on training on advanced computational techniques and enhancing peer networking for early-stage researchers, and DEI training (2) web-based content to support training at a larger scale, and (3) curriculum and instructional materials for senior undergraduate (UG) and graduate courses to support course development across the community. The planned Summer/winter schools and course materials include modeling approaches spanning different length and time scales (quantum mechanics, atomistic modeling, mesoscale simulations) and advanced data analysis tools, including machine learning. 
-
- We encourage community members to explore our website for information on past and future schools and materials developed by the institute. If you are an instructor looking for content for your class or course offering, you intend to teach a particular topic, or wish to join for trainer training please email info@i-comse.org
+\input{community_descriptions/research_institutes/i-CoMSE}
 
 \subsubsection{The Molecular Sciences Software Institute}
-\input{community_descriptions/molssi}
+\input{community_descriptions/research_institutes/molssi}
 
- \subsubsection{Partnership for Advanced Computing in Europe (PRACE)}
+\subsubsection{Partnership for Advanced Computing in Europe (PRACE)}
 
-\textbf{Contributed by Marjolein Oorsprong}
-
-Over several years, PRACE (\href{https://prace-ri.eu/}{https://prace-ri.eu/}) has developed an extensive Training Portal (\href{https://training.prace-ri.eu/}{https://training.prace-ri.eu/}) where visitors can explore upcoming training events and find a range of other HPC-related training resources.
-The events and resources are offered at different levels of proficiency in the use of HPC, but can be of relevance to any scientific field or industrial domain that relies on supercomputers.
-During the COVID-19 pandemic, all PRACE-supported training events were reformatted for online-only participation. 
-PRACE remains committed to delivering most courses online but a small number of courses will allow hybrid (in-person and online) participation since September 2021.
-PRACE training courses are open to participants affiliated with institutions from the Member States (MS) of the European Union (EU) and \href{https://ec.europa.eu/info/research-and-innovation/statistics/framework-programme-facts-and-figures/horizon-2020-country-profiles_en}{Associated/Other Countries} to the Horizon 2020 programme.
-PRACE also supports the International HPC Summer School (\href{https://www.ihpcss.org/}{https://www.ihpcss.org/}).
-Looking towards the future, PRACE is currently working with the EuroHPC Joint Undertaking 
-(\href{https://eurohpc-ju.europa.eu/index_en}{https://eurohpc-ju.europa.eu/index\_en}).
-on a professional HPC traineeship programme, which is planned to start in 2024.
+\input{community_descriptions/research_institutes/prace}
 
 \section{Conclusions}
 
 It's appropriate to wrap up with discussion and conclusions.
-
-
 
 
 
