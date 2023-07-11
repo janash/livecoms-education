@@ -1,10 +1,27 @@
 title: "[Submissions] "
 labels: ["Discussion of Submission to Review"]
 body:
+
+  - type: input
+    id: educational-community
+    attributes:
+      label: What is your educational resource or community name?
+      description: 
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: What is your name?
+      description: 
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
-        In order to be included in the article, you should be able to answer ""yes"" to the questions in this section.
+       ## In order to be included in the article, you should be able to answer ""yes"" to the questions in this section.
 
   - type: checkboxes
     attributes:
@@ -37,22 +54,103 @@ body:
   - type: markdown
     attributes:
       value: |
-        The next set of questions ask about community, accessibility, activity, growth and pedagogy. Educational communities 
-        included in the article should be able to answer ""yes"" to at least one question in each category. 
+        ## The next set of questions ask about community, accessibility, activity, growth and pedagogy. 
+        Educational communities included in the article should be able to answer ""yes"" to at least one question in each category. 
   
   - type: checkboxes
     attributes:
-      label: Accessibility - all softwares/tools that are being used in learning activties are open-source or free for academic use.
+      label: Accessibility 1
+      description: |
+         All softwares/tools that are being used in learning activties are open-source or free for academic use.
       options:
         - label: "yes"
         - label: "no"
-        - label: N/A
+        - label: "N/A"
 
   - type: checkboxes
     attributes:
-      label: Accessibility - most trainees have easy access or can gain access to the computational tools being taught.
+      label: Accessibility 2
+      description: |
+         Most trainees have easy access to the computational tools being taught.
       options:
         - label: "yes"
         - label: "no"
-        - label: N/A
+        - label: "N/A"
 
+  - type: checkboxes
+    attributes:
+      description: |
+        The community has online resources that are accessible to learners and/or educators.
+        It is acceptable if the instructor resources have limited distribution, i.e. you must register with an instructor 
+        community to gain access.
+      label: |
+        Activity 1 
+      options:
+        - label: "yes"
+        - label: "no"
+        - label: "N/A"
+
+  - type: checkboxes
+    attributes:
+      label: |
+        Activity 2
+      description: |
+        The community organizes regular events that are open to students, researchers, and/or educators.
+      options:
+        - label: "yes"
+        - label: "no"
+        - label: "N/A"
+
+  - type: checkboxes
+    attributes:
+      label: |
+        Growth 1
+      description: |
+        The community offers a way to get involved and contribute or edit resources, or attend events. 
+        This information is publicly available.
+      options:
+        - label: "yes"
+        - label: "no"
+        - label: "N/A"
+
+
+  - type: checkboxes
+    attributes:
+      label: |
+        Growth 2
+      description: |
+        The community trains new members/educators/contributors.
+      options:
+        - label: "yes"
+        - label: "no"
+        - label: "N/A"
+
+  - type: checkboxes
+    attributes:
+      label: |
+        Pedagogy 1
+      description: |
+        The resources include clearly-defined learning objectives.
+      options:
+        - label: "yes"
+        - label: "no"
+        - label: "N/A"
+
+  - type: checkboxes
+    attributes:
+      label: |
+        Pedagogy 2
+      description: |
+        The community offers support for learners past the learning activity 
+        (for example via a mailing list or an issue tracker).
+      options:
+        - label: "yes"
+        - label: "no"
+        - label: "N/A"
+
+  - type: textarea
+    id: improvements
+    attributes:
+      label: Comments
+      description: "Please leave any comments or explanation of your answers above."
+      value: 
