@@ -4,50 +4,50 @@ body:
   - type: markdown
     attributes:
       value: |
-        In order to be included in the article, you should be able to answer "yes" to the questions in this section.
+        In order to be included in the article, you should be able to answer ""yes"" to the questions in this section.
 
   - type: checkboxes
     attributes:
       label: The community represents academic (rather than commercial) organizations.
       options:
-        - label: yes
-        - label: no
+        - label: "yes"
+        - label: "no"
 
   - type: checkboxes
     attributes:
       label: The educational resource is a community effort. It represents an organization or collection of individuals, rather than resources developed by one individual.
-        - label: yes
-        - label: no
+        - label: "yes"
+        - label: "no"
 
   - type: checkboxes
     attributes:
       label: Educational resources produced explain concepts beyond use of specific software. 
-        - label: yes
-        - label: no
+        - label: "yes"
+        - label: "no"
 
   - type: checkboxes
     attributes:
       label: Educational resources produced have open licenses.
-        - label: yes
-        - label: no
+        - label: "yes"
+        - label: "no"
 
   - type: markdown
     attributes:
       value: |
         The next set of questions ask about community, accessibility, activity, growth and pedagogy. Educational communities 
-        included in the article should be able to answer "yes" to at least one question in each category. 
+        included in the article should be able to answer ""yes"" to at least one question in each category. 
   
   - type: checkboxes
     attributes:
       label: Accessibility - all softwares/tools that are being used in learning activties are open-source or free for academic use.
-        - label: yes
-        - label: no
+        - label: "yes"
+        - label: "no"
         - label: N/A
 
   - type: checkboxes
     attributes:
       label: Accessibility - most trainees have easy access or can gain access to the computational tools being taught.
-        - label: yes
-        - label: no
+        - label: "yes"
+        - label: "no"
         - label: N/A
 
